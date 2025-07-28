@@ -1,0 +1,31 @@
+<div class="container py-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+  
+  <div class="row">
+    <!-- Google Map -->
+    <div class="col-md-6 mb-4">
+    <google-map height="300px" width="100%" [center]="center" [zoom]="zoom">
+  <map-marker [position]="center"></map-marker>
+</google-map>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="col-md-6">
+      <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+        <div class="mb-3">
+          <label>Name</label>
+          <input type="text" class="form-control" required name="name" [(ngModel)]="form.name">
+        </div>
+        <div class="mb-3">
+          <label>Email</label>
+          <input type="email" class="form-control" required name="email" [(ngModel)]="form.email">
+        </div>
+        <div class="mb-3">
+          <label>Message</label>
+          <textarea class="form-control" rows="4" required name="message" [(ngModel)]="form.message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+      </form>
+    </div>
+  </div>
+</div>

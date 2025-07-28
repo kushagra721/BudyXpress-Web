@@ -1,0 +1,66 @@
+:host {
+  display: block;
+  background-color: #ffffff;
+  color: #333333;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+/* Wrapper to constrain and center the content */
+.content-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+/* Headings */
+h2, h3, h4 {
+  color: #007BFF;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+h2 {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+/* Text styling */
+p, ul {
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Link styling */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+strong {
+  color: #222222;
+  font-weight: 600;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .content-wrapper {
+    padding: 20px 15px;
+  }
+
+  h2, h3, h4 {
+    font-size: 1.2rem;
+  }
+}

@@ -3,14 +3,31 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
+
+// 👇 Import Angular Google Maps module
+import { GoogleMapsModule } from '@angular/google-maps';
+
+// 👇 Your component import (adjust path if needed)
+import { ContactUSComponent } from '../pages/contact-us/contact-us.component';
+import { HeaderComponent } from '../pages/header/header.component';
+import { FooterComponent } from '../pages/footer/footer.component';
+import { MainpageComponent } from '../pages/mainpage/mainpage.component';
+import { PrivacyComponent } from '../pages/privacy/privacy.component';
+import { TermsComponent } from '../pages/terms/terms.component';
+
+import { UserAgreementComponent } from '../pages/user-agreement/user-agreement.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,HeaderComponent,FooterComponent,MainpageComponent,PrivacyComponent,TermsComponent,UserAgreementComponent,
+    ContactUSComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    AppRoutingModule,
+    GoogleMapsModule  // 👈 Use this instead of AgmCoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

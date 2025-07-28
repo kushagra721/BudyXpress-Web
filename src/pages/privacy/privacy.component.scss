@@ -1,0 +1,21 @@
+.policy {padding: 50px 80px;}
+.policy h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 25px;}
+.policy strong{
+    
+    font-size: 15px;
+    display: block;
+    margin-bottom: 7px; color: #000;
+}
+.policy p{ 
+    margin-bottom: 27px;
+    line-height: 22px;
+    color: #666;}
+.policy li{   line-height: 22px; margin-bottom: 10px;}
+.policy ul{ padding-left: 30px; margin-bottom: 30px;}
+    
+@media screen and (max-width:980px) {
+    .policy{padding: 50px 30px;}
+        }

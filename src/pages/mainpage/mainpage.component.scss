@@ -1,0 +1,111 @@
+.main-container {
+  font-family: 'Segoe UI', sans-serif;
+  background: #ffffff;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #007BFF, #00BFFF);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.hero-buttons .btn-primary,
+.hero-buttons .btn-secondary {
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: white;
+  color: #007BFF;
+}
+
+.btn-primary:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-secondary {
+  background-color: #0056b3;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #004a99;
+}
+
+/* How It Works */
+.how-it-works {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.how-it-works .steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.step {
+  flex: 1 1 250px;
+  max-width: 300px;
+  margin: 15px;
+}
+
+/* Features */
+.features {
+  background: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.features li {
+  margin: 12px 0;
+}
+
+/* Call to Action */
+.cta {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #007BFF;
+  color: white;
+}
+
+.cta button {
+  background-color: white;
+  color: #007BFF;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background-color: #f0f0f0;
+}
