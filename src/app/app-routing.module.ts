@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'useragreement', component: UserAgreementComponent },
   { path: 'header', component: HeaderComponent },
   { path: 'footer', component: FooterComponent },
-  { path: 'mainpage', component: MainpageComponent },
+  { path: '', component: MainpageComponent },
   // 👈 Add your route here
 ];
 
