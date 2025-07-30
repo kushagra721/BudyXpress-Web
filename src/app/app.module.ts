@@ -15,13 +15,16 @@ import { FooterComponent } from '../pages/footer/footer.component';
 import { MainpageComponent } from '../pages/mainpage/mainpage.component';
 import { PrivacyComponent } from '../pages/privacy/privacy.component';
 import { TermsComponent } from '../pages/terms/terms.component';
+import { AboutusComponent } from '../pages/aboutus/aboutus.component';
+import { CareerComponent } from '../pages/career/career.component';
+import { CompanioneedComponent } from '../pages/companioneed/companioneed.component';
 
 import { UserAgreementComponent } from '../pages/user-agreement/user-agreement.component';
 
 @NgModule({
   declarations: [
     AppComponent,HeaderComponent,FooterComponent,MainpageComponent,PrivacyComponent,TermsComponent,UserAgreementComponent,
-    ContactUSComponent
+    ContactUSComponent,AboutusComponent,CareerComponent,CompanioneedComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,111 @@
+.about-wrapper {
+  position: relative;
+  padding: 60px 20px 80px;
+  background: linear-gradient(135deg, #f5f9ff, #fdfdff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.decor-top, .decor-bottom {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: rgba(100, 149, 237, 0.1);
+  z-index: 0;
+}
+
+.decor-top {
+  top: -100px;
+  left: -100px;
+}
+
+.decor-bottom {
+  bottom: -100px;
+  right: -100px;
+}
+
+.about-card {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  padding: 50px 40px;
+  max-width: 950px;
+  border-radius: 20px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.about-card h1 {
+  font-size: 36px;
+  color: #1c1c1c;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.about-card h1 span {
+  color: #2a60e4;
+  background: linear-gradient(to right, #2a60e4, #8e44ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-card p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.about-card .highlight {
+  background-color: #f0f7ff;
+  padding: 16px 20px;
+  border-left: 4px solid #2a60e4;
+  border-radius: 8px;
+  margin: 24px 0;
+}
+
+.download-section {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  max-width: 700px;
+  position: relative;
+  z-index: 1;
+}
+
+.download-section h2 {
+  font-size: 26px;
+  color: #1f1f1f;
+  margin-bottom: 12px;
+}
+
+.download-section p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.store-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.store-buttons img {
+  height: 55px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.store-buttons img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
